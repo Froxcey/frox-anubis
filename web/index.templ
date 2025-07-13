@@ -64,19 +64,17 @@ templ base(title string, body templ.Component, impressum *config.Impressum, chal
 		</head>
 		<body id="top">
 			<main>
-				<center>
-					<h1 id="title" class=".centered-div">{ title }</h1>
-				</center>
+				<h1 id="title" class="centered-div">{ title }</h1>
 				@body
 				<footer>
-					<center>
+					<div class="centered-div">
 						<p>
 							Powered by <a href="https://github.com/TecharoHQ/anubis"><img src="https://frox.tw/icons/anubis.svg" alt="anubis"/></a>
 						</p>
 						<p>
 							Redesigned by <a href="https://frox.tw/"><img src="https://frox.tw/icons/froxtw.svg" alt="froxtw"/></a>
 						</p>
-					</center>
+					</div>
 				</footer>
 			</main>
 		</body>
